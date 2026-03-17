@@ -1,5 +1,5 @@
 {% set name = "nomad-parser-plugins-atomistic" %}
-{% set version = "1.0.9" %}
+{% set version = "1.0.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nomad_parser_plugins_atomistic-{{ version }}.tar.gz
-  sha256: cedec9912f7068bc9f6b4aa5ca6de48dcd3495c9d04f677043eba021ac94de91
+  sha256: 29c7447d5107ccbdbef0fbe5c88e46371089d8b2ed2a3db22094678480326c6f
 
 build:
   noarch: python
