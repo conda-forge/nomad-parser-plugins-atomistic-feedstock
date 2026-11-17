@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: nomad-parser-plugins-atomistic
-  version: "1.0.15"
+  version: "1.0.16"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/nomad_parser_plugins_atomistic-${{ version }}.tar.gz
-  sha256: 530854f3c2bae387e181e21744c557f2338c8fcdff0e463ce8447914ea0b0f12
+  sha256: 4144641669e9008af0def376cce19df8618cc9cf0c08a39787ed74875123e267
 
 build:
   number: 0
